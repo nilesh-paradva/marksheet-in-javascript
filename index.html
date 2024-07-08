@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-info-subtl">
+
+
+    <header class="border border-5 border-primary-subtle py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="logo text-center mb-2">
+                        <img src="images/logo-1.png" alt="ppsu-logo" class="col-2">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="text d-flex align-items-center justify-content-between">
+                        <div class="index me-4">
+                            <ul class="m-0 list-unstyled text-start">
+                                <li class="fs-6 fw-bold text-primary">S.S.C. Index No.: 68-256</li>
+                                <li class="fs-6 fw-bold text-primary">H.S.C. Index No.: 18-129</li>
+                            </ul>
+                        </div>
+                        <div class="dis">
+                            <ul class="m-0 list-unstyled text-start text-center">
+                                <li class="fs-1 fw-bold text-black">P.P. SAVANI VIDHYABHAVAN</li>
+                                <li class="fs-4 fw-bold text-primary">Secondary - Higher Secondary School (commerce -
+                                    Science)</li>
+                                <li class="fs-6 fw-bold text-primary">Hirabaug, Nr.Santlal Society, Varachha Road,
+                                    Surat-395 006</li>
+                            </ul>
+                        </div>
+                        <div class="sc-no">
+                            <ul class="m-0 list-unstyled text-start text-center">
+                                <li class="fs-6 fw-bold text-primary">School No.: 60</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="invoice">
+        <section class="into pb-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 p-0">
+                        <div class="student-name border border-3 border-primary-subtle border-top-0 py-2">
+                            <ul class="m-0 list-unstyled d-flex align-items-center">
+                                <li class="ps-1 fw-bold text-primary">Stuent's Name: </li>
+                                <li id="stu-name" class="ps-1 fw-bold black"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 p-0">
+                        <table class="w-100">
+                            <tr>
+                                <th
+                                    class="bg-primary text-white border border-2 border-white border-top-0 border-top-0 border-start-0">
+                                    Std</th>
+                                <th class="bg-primary text-white border border-2 border-white border-top-0">Div..</th>
+                                <th class="bg-primary text-white border border-2 border-white border-top-0">G.R.No.</th>
+                                <th class="bg-primary text-white border border-2 border-white border-top-0">Roll No.
+                                </th>
+                                <th class="bg-primary text-white border border-2 border-white border-top-0">Year</th>
+                                <th class="bg-primary text-white border border-2 border-white border-top-0">Section</th>
+                                <th
+                                    class="bg-primary text-white border border-2 border-white border-top-0 border-end-0">
+                                    Birth Date</th>
+                            </tr>
+                            <tr>
+                                <td id="std" class="fw-bolder border-start-0"></td>
+                                <td id="divi" class="fw-bolder"></td>
+                                <td id="grno" class="fw-bolder"></td>
+                                <td id="rollno" class="fw-bolder"></td>
+                                <td id="year" class="fw-bolder"></td>
+                                <td id="section" class="fw-bolder"></td>
+                                <td id="bi-date" class="fw-bolder border-end-0"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="marks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <div class="col-9">
+                            <table class="w-100" cellpadding="9">
+                                <tr class="bg-primary text-white">
+                                    <th>SUBJECTS</th>
+                                    <th>TOTAL MARKS</th>
+                                    <th width="25%">OBTAINED MARKS</th>
+                                    <th>GRADE</th>
+                                </tr>
+                                <tr>
+                                    <td>ENGLISH</td>
+                                    <td>100</td>
+                                    <td id="en"></td>
+                                    <td id="egrade"></td>
+                                </tr>
+                                <tr>
+                                    <td>CHEMISTRY</td>
+                                    <td>100</td>
+                                    <td id="ch"></td>
+                                    <td id="ch-grade"></td>
+                                </tr>
+                                <tr>
+                                    <td>PHYSICS</td>
+                                    <td>100</td>
+                                    <td id="ph"></td>
+                                    <td id="ph-grade"></td>
+                                </tr>
+                                <tr>
+                                    <td>BIOLOGY</td>
+                                    <td>100</td>
+                                    <td id="bi"></td>
+                                    <td id="bi-grade"></td>
+                                </tr>
+                                <tr>
+                                    <td>COMPUTER</td>
+                                    <td>100</td>
+                                    <td id="co"></td>
+                                    <td id="co-grade"></td>
+                                </tr>
+                                <tr class="bg-info">
+                                    <td class="fw-bold text-white">Total Marks</td>
+                                    <td class="fw-bold text-black">500</td>
+                                    <td id="ob-mark" class="fw-bold text-black"></td>
+                                    <td class="fw-bold text-black"></td>
+                                </tr>
+                                <tr class="bg-info">
+                                    <td class="fw-bold text-black fs-5">Percentage :- </td>
+                                    <td id="percentage" colspan="1" class="text-start fw-bold text-black fs-6 text-center"></td>
+                                    <!-- <td id="grade"></td> -->
+                                    <td id="grade" class="fw-bold text-black" colspan="2"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="call-button text-center">
+                            <a href="#" onclick="call()" class="btn btn-primary">Click</a>
+                            <a href="#" class="btn btn-primary" id="print" onclick="print1()">Print Page</a>
+                            <a href="#" class="btn btn-primary" id="dl-pdf">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="custom.js"></script>
+    <script src="html2pdf.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
