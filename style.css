@@ -2,3 +2,7 @@ th,td{
     border: 2px solid black;
     text-align: center;
 }
+
+.over::-webkit-scrollbar{
+    width: 0px;
+}

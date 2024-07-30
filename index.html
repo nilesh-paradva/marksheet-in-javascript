@@ -22,14 +22,14 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="text d-flex align-items-center justify-content-between">
+                    <div class="text d-flex align-items-center justify-content-between flex-column flex-lg-row">
                         <div class="index me-4">
                             <ul class="m-0 list-unstyled text-start">
                                 <li class="fs-6 fw-bold text-primary">S.S.C. Index No.: 68-256</li>
                                 <li class="fs-6 fw-bold text-primary">H.S.C. Index No.: 18-129</li>
                             </ul>
                         </div>
-                        <div class="dis">
+                        <div class="dis mb-3">
                             <ul class="m-0 list-unstyled text-start text-center">
                                 <li class="fs-1 fw-bold text-black">P.P. SAVANI VIDHYABHAVAN</li>
                                 <li class="fs-4 fw-bold text-primary">Secondary - Higher Secondary School (commerce -
@@ -62,21 +62,16 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 p-0">
+                    <div class="col-12 p-0 over overflow-x-scroll">
                         <table class="w-100">
                             <tr>
-                                <th
-                                    class="bg-primary text-white border border-2 border-white border-top-0 border-top-0 border-start-0">
-                                    Std</th>
+                                <th class="bg-primary text-white border border-2 border-white border-top-0 border-top-0 border-start-0">Std</th>
                                 <th class="bg-primary text-white border border-2 border-white border-top-0">Div..</th>
                                 <th class="bg-primary text-white border border-2 border-white border-top-0">G.R.No.</th>
-                                <th class="bg-primary text-white border border-2 border-white border-top-0">Roll No.
-                                </th>
+                                <th class="bg-primary text-white border border-2 border-white border-top-0">Roll No.</th>
                                 <th class="bg-primary text-white border border-2 border-white border-top-0">Year</th>
                                 <th class="bg-primary text-white border border-2 border-white border-top-0">Section</th>
-                                <th
-                                    class="bg-primary text-white border border-2 border-white border-top-0 border-end-0">
-                                    Birth Date</th>
+                                <th class="bg-primary text-white border border-2 border-white border-top-0 border-end-0">Birth Date</th>
                             </tr>
                             <tr>
                                 <td id="std" class="fw-bolder border-start-0"></td>
@@ -95,9 +90,9 @@
         <section class="marks">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex align-items-center justify-content-center">
-                        <div class="col-9">
-                            <table class="w-100" cellpadding="9">
+                    <div class="col-12 over d-flex align-items-center justify-content-center overflow-x-scroll">
+                        <div class="col-9 d-flex align-items-center justify-content-center">
+                            <table class="w-100" cellpadding="9" align="center">
                                 <tr class="bg-primary text-white">
                                     <th>SUBJECTS</th>
                                     <th>TOTAL MARKS</th>
@@ -157,9 +152,9 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="call-button text-center">
-                            <!-- <a href="#" onclick="call()" class="btn btn-primary">Click</a> -->
+                            <a href="#" onclick="call()" class="btn btn-primary">Click</a>
                             <a href="#" class="btn btn-primary" id="print" onclick="print1()">Download & Print page</a>
-                            <!-- <a href="#" class="btn btn-primary" id="dl-pd" onclick="download()">Download</a> -->
+                            <a href="#" class="btn btn-primary" id="dl-pd" onclick="download()">Download</a>
                         </div>
                     </div>
                 </div>
@@ -167,7 +162,7 @@
         </section>
     </main>
 
-    <script src="custom.js"></script>
+    <!-- <script src="custom.js"></script> -->
     <script src="html2pdf.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
